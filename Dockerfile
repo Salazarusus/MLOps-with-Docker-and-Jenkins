@@ -15,4 +15,4 @@ ENV RAW_DATA_FILE=adult.csv
 COPY adult.csv ./raw_data/adult.csv
 COPY preprocessing.py ./preprocessing.py
 COPY train.py ./train.py
-COPY test.py ./test.py
+COPY test.py ./test.py  
